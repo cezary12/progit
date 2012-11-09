@@ -508,7 +508,7 @@ You can tell Git not to export certain files or directories when generating an a
 
 For example, say you have some test files in a `test/` subdirectory, and it doesn’t make sense to include them in the tarball export of your project. You can add the following line to your Git attributes file:
 
-	test/ export-ignore
+	/test export-ignore
 
 Now, when you run git archive to create a tarball of your project, that directory won’t be included in the archive.
 
